@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E8AE02; /* Fondo general */
+    color: #995F4C; /* Color de texto */
+}
+
+header {
+    background-color: #C57B27; /* Color de fondo del encabezado */
+    color: white; /* Color de texto en el encabezado */
+    text-align: center;
+    padding: 1em;
+}
+
+
+nav {
+    background-color: #CC2522; /* Color de fondo del menú de navegación */
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #e8b642; /* Color de fondo al pasar el ratón sobre un enlace */
+    color: black;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    background-color: #E8AE02; /* Fondo de las secciones */
+    margin: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+footer {
+    background-color: #C57B27; /* Color de fondo del pie de página */
+    color: white;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+}
+
+section#ubicacion {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */
+    align-items: center;
+}
+
+section#ubicacion div.texto {
+    text-align: left;
+}
+
+section#ubicacion div.mapa {
+    text-align: center;
+    margin-left: 250px; /* Alinea el mapa a la izquierda */
+    padding: 20px;
+}
+
+footer {
+    background-color: #C57B27; /* Color de fondo del pie de página */
+    color: white;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+   
+}
+
+.texto {
+    font-size: 35px;
+}
+
+header h1 {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing:auto;
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+    
+  }
+
+section h2 {
+font-family: "Rubik", sans-serif;
+    font-optical-sizing:auto;
+    font-weight: 400;
+    font-size: 45px;
+    text-align: center;
+    color: azure;
+     }
+
+section p {
+    font-family: "Rubik", sans-serif;
+        font-optical-sizing:auto;
+        font-weight: 400;
+        font-size: 25px;
+        text-align: center;
+        color: rgb(56, 14, 3);
+         }
