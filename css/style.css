@@ -53,6 +53,16 @@ footer {
     bottom: 0;
     width: 100%;
 }
+section#identidad{ display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */
+    align-items: center;}
+
+section#reportajes{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */
+    align-items: center;
+}
+
 
 section#ubicacion {
     display: grid;
